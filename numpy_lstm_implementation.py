@@ -6,6 +6,7 @@ Implementation of LSTM using numpy
 
 #Important please read:
 Why  LSTM is best for all of our use cases (along with steps to implement)
+(along with sample results if we implement this using Tensorflow,keras on Nvidia Graphic card using abstractive summarization)
 
 https://docs.google.com/document/d/1pCacDrNdJPV0dOiuA2sFUTUNT1tJ_CO33dlaHNWnT3k/edit?usp=sharing
 
