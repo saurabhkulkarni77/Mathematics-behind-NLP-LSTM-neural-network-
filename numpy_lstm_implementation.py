@@ -6,7 +6,6 @@ Implementation of LSTM using numpy
 
 #Important please read:
 Why  LSTM is best for all of our use cases (along with steps to implement)
-(along with sample results if we implement this using Tensorflow,keras on Nvidia Graphic card using abstractive summarization)
 
 https://docs.google.com/document/d/1pCacDrNdJPV0dOiuA2sFUTUNT1tJ_CO33dlaHNWnT3k/edit?usp=sharing
 
@@ -77,12 +76,4 @@ new_h = np.tanh(new_c) * sigmoid_array(o)
 print(new_h)
 print(new_c)
 ''''
-Refer the sample results if we implement this using Tensorflow,keras on Nvidia Graphic card using abstractive summarization:
-Review(1): The coffee tasted great and was at such a good price! I highly recommend this to everyone!
-Summary(1): great coffee
-Review(2): This is the worst cheese that I have ever bought! I will never buy it again and I hope you won't either!
-Summary(2): omg gross gross
-Review(3): love individual oatmeal cups found years ago sam quit selling sound big lots quit selling found target expensive buy individually trilled get entire case time go anywhere need water microwave spoon know quaker flavor packets
-Summary(3): love it
 
-'''
